@@ -1,0 +1,70 @@
+.r-javas{
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 2584px;
+    background-color:rgb(255, 208, 0);
+    overflow: hidden;
+    
+
+    .r-javas-title{
+        margin: 0 auto;
+        max-width: 920px;
+        line-height: 40px;
+        font-size: 20px;
+        font-family: "Dm sans";
+    }
+    h2{
+        text-align: center;
+        line-height: 50px;
+    }
+    p{
+      max-width: 920px;
+
+      span{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+        color: gray;
+        background-color: #fff;
+        border-radius: 5px;
+      }
+    }
+    .input-block{
+        max-width: 920px;
+        background-color: #000;
+        opacity: 85%;
+        overflow: hidden;
+        .input{
+            background-color: #000;
+            border: none;
+            max-width: 870px;
+            height: 60px;
+            font-size: 40px;
+            margin-left: 20px;
+            color: #fff;
+        }
+    }
+      .r-button{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        button{
+            border: none;
+            background-color: rgb(193, 21, 202);
+            color: #fff;
+            font-family: "DM sans";
+            font-weight: 600;
+            width: 300px;
+            height: 50px;
+            font-size: 20px;
+            transition: .3s;
+            cursor: pointer;
+
+            &:hover{
+                box-shadow: 4px 6px 16px #000;
+                transform: scale(1.09);
+            }
+        }
+      }
+      
+}
+

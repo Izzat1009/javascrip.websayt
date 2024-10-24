@@ -1,0 +1,129 @@
+.hero{
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 2584px;
+    background-color: rgb(255, 208, 0);
+    overflow: hidden;
+    
+    .hero-title{
+        margin: 0 auto;
+        padding-left: 160px;
+        padding-top: 100px;
+        h2{
+            background-color: #000;
+            width: 250px;
+            height: 60px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            color: rgb(255, 208, 0);
+            font-size: 43px;
+            font-weight: 500;
+            font-family: "Dm sans";
+        }
+        h1{
+            font-size: 90px;
+            font-family: "Dm sans";
+            font-family: bold;
+            font-weight: 800;
+        }
+        .title-list{
+            p{
+                font-family: "Dm italic";
+                font-size: 70px;
+                span{
+                    font-size: 40px;
+                    font-family: "Dm italic";
+                    color: #000;
+                    opacity: 70%;
+                }
+            }
+        }
+    }
+
+}
+@media (max-width: 850px) {
+    
+    .hero{
+    .hero-title{
+        h2{
+            font-size: 23px;
+            width: 200px;
+            height: 40px;
+
+        }
+        h1{
+            font-size: 60px;
+        }
+        .title-list{
+            p{
+                font-size: 50px;
+                span{
+                    display: flex;
+                }
+            }
+
+        }
+    }
+
+
+}
+}
+@media (max-width: 680px){
+    .hero{
+        .hero-title{
+            padding-left: 50px;
+            h2{
+                font-size: 23px;
+                width: 200px;
+                height: 40px;
+    
+            }
+            h1{
+                
+                font-size: 50px;
+            }
+            .title-list{
+                p{
+                    font-size: 50px;
+                    span{
+                        display: flex;
+                    }
+                }
+    
+            }
+        }
+    
+    
+    }
+
+}
+@media (max-width: 360px){
+    .hero{
+        .hero-title{
+            padding-left: 50px;
+            h2{
+                font-size: 23px;
+                width: 200px;
+                height: 40px;
+    
+            }
+            h1{
+                
+                font-size: 40px;
+            }
+            .title-list{
+                p{
+                    font-size: 30px;
+                    span{
+                        display: flex;
+                    }
+                }
+    
+            }
+        }
+    
+    
+    }
+
+}

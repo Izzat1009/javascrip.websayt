@@ -1,0 +1,40 @@
+.sign-javas{
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 2584px;
+    background-color: rgb(255, 208, 0);
+}
+.sign-title{
+    margin: 0 auto;
+    padding-top: 100px;
+    overflow: hidden;
+    text-align: center;
+
+    h1{
+        font-size: 40px;
+        font-family: "Dm sans";
+        font-weight: 800;
+    }
+    p{
+        font-family: "Dm sans";
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    button{
+        font-size: 18px;
+        width: 230px;
+        height: 60px;
+        font-family: "Dm sans";
+        font-weight: 700;
+        color: #fff;
+        background-color: #000;
+        border: none;
+        transition: .3s;
+        cursor: pointer;
+
+        &:hover{
+            box-shadow: 4px 6px 16px #000;
+        }
+    }
+}
